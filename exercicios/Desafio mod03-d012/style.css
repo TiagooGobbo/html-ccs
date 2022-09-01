@@ -4,9 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --font-padrão: Arial Helvetica sans-serif;
-    --font-destaque: 'Sriracha';
-    --font-cordel: 'Passion One';
+    --font-padrão: Arial, Geneva, Helvetica, sans-serif;
+    --font-destaque: 'Sriracha', cursive;
+    --font-cordel: 'Passion One', cursive;
 } 
 
 * {
@@ -28,7 +28,9 @@ header {
 header > h1 {
     padding-top: 50px;
     font-family: var(--font-cordel);
+    font-size: 10vw ;
     font-variant: small-caps;
+    font-weight: normal;
 }
 
 header > p {
@@ -53,6 +55,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font-destaque);
+    font-size: 3.2vw;
 }
 
 
@@ -68,7 +72,8 @@ section.imagem {
 }
  
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgb(139, 137, 137);
 }
 
